@@ -1,0 +1,41 @@
+.bgpm {
+    /* background-size: cover; */
+    color: rgba(255, 255, 255, .9);
+    max-width: 100%;
+    background: url("./img/pacmanbgburned.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/* Image border */
+
+.imageStyling {
+    border: 5px solid #dddbd9;
+    margin-bottom: .5em;
+}
+
+
+/* Minimum height of image */
+
+.ui.image img,
+.ui.image svg {
+    min-height: 300px;
+}
+
+
+/* min-height needs to be changed back to auto on smaller screens */
+
+.height {
+    min-height: 15em;
+}
+
+.Typist {
+    font-size: 2em;
+}
+
+.sourcecodeBtn {
+    padding: 1em;
+}
