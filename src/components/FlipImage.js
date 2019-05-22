@@ -2,9 +2,9 @@ import React from 'react';
 import { Col, Row } from 'antd';
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 import QueueAnim from 'rc-queue-anim';
-import zayn from './page/img/zayn.jpg';
+import zayn from './page/img/zayn-min.jpg';
 import dear from './page/img/dear.jpg';
-import ayuk from './page/img/ayuk.jpg';
+import ayuk from './page/img/ayuk-min.jpg';
 import komposisi from './page/img/komposisi.jpg';
 import Texty from 'rc-texty';
 
@@ -14,9 +14,9 @@ class FlipImage extends React.Component{
     return(
     <div style={{backgroundColor:'#efefef'}}>
     <div className="texty-demo" style={{ marginTop: 24 }}>
-            <div ><br/><h1 key="h" style={{color: '0000', textAlign: 'center'}}><Texty>DESIGN</Texty></h1></div>
+            <div><br/><h1 key="h" style={{color: '0000', textAlign: 'center'}}><Texty>DESIGN</Texty></h1></div>
     </div>
-     <div style={{  padding: '150px' }}>
+     <div style={{  padding: '100px' }}>
      <Row gutter={24}>
      <QueueAnim ease={[[0.175, 0.885, 0.32, 1.275]]}>
      <div key="1">
@@ -35,7 +35,7 @@ class FlipImage extends React.Component{
                     background: '#fff',
                 }}
                 >
-                <img src={zayn} width={205} height={300}/>
+                <img src={zayn} width={205} height={300} alt="zayn"/>
                 </FrontSide>
                 <BackSide
                 style={{ backgroundColor: '#41669d'}}>
@@ -63,7 +63,7 @@ class FlipImage extends React.Component{
                     background: '#fff',
                 }}
                 >
-                <img src={dear} width={205} height={300}/>
+                <img src={dear} width={205} height={300} alt="dear"/>
                 </FrontSide>
                 <BackSide
                 style={{ backgroundColor: '#41669d'}}>
@@ -92,7 +92,7 @@ class FlipImage extends React.Component{
                     background: '#fff',
                 }}
                 >
-                <img src={ayuk} width={200} height={300}/>
+                <img src={ayuk} width={200} height={300} alt="ayuk"/>
                 </FrontSide>
                 <BackSide
                 style={{ backgroundColor: '#41669d'}}>
@@ -122,7 +122,7 @@ class FlipImage extends React.Component{
                     background: '#fff',
                 }}
                 >
-                <img src={komposisi} width={205} height={300}/>
+                <img src={komposisi} width={205} height={300} alt="komposisi"/>
                 </FrontSide>
                 <BackSide
                 style={{ backgroundColor: '#41669d'}}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Icon, Avatar, Col, Row } from 'antd';
+import { Avatar } from 'antd';
 import pict from './page/img/pict.jpg'
 
 class MyAvatar extends React.Component{

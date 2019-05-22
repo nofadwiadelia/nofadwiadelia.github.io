@@ -3,7 +3,7 @@
   text-align: center;
   height: 690px;
   line-height: 160px;
-  background: url("../components/page/img/bg.png");;
+  background: url("../components/page/img/bg-min.png");
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -18,4 +18,12 @@ h1 {
   color: #000;
 }
 
+Typist{
+  font-size: 2em;
+  color: #000;
+}
+
+.Typist {
+  font-size: 2em;
+}
   

@@ -7,14 +7,12 @@ class Kontak extends Component {
     render() {
         return (
             <div>
-                <Row guter={8}>
+                <Row guter={16}>
                     <Col offset={4} span={16}>
                     <KoCard/>
                     </Col>
                 </Row>
-                
-                <div>
-                </div>
+
                 
             </div>
         );

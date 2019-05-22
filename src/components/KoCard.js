@@ -1,85 +1,92 @@
 import React from 'react';
-import { Card, Col, Row } from 'antd';
+import {Card, Icon, Row, Col, Form, Input, Button} from 'antd';
 import 'antd/dist/antd.css';
 import TweenOne from 'rc-tween-one';
-import asset1 from '../components/page/img/asset1.png';
-import asset2 from '../components/page/img/asset2.png';
-import asset3 from '../components/page/img/asset3.png';
-import asset4 from '../components/page/img/asset4.png';
-import asset5 from '../components/page/img/asset5.png';
+const { TextArea } = Input;
 
 class KoCard extends React.Component{
+ 
     render() {
         return(
-
-            <Card title="Hubungi Melalui" bordered={false}>
-            <div style={{ background: '#ffff', padding: '20px' }}>
-                <div>
-                    <TweenOne
-                    animation={{ x: '+=300px', y: '-=50px', duration: 1000 }}
-                    style={{ opacity: 1, height: 100, transform: 'translate(50px,30px)' }}
-                    >
-                    <div><img src={asset1}/><span>&emsp;Guyangan, Tugu, Cawas, Klaten</span></div>
-                    </TweenOne>
-                </div>
-                <div>
-                    <TweenOne animation={{ x: '+=250px', y: '+=10px', rotate: 360, duration: 2000 }}
-                    Style={{  top: 0, left: 50, width: 100, height: 10, background: '#000',
-                    Transform: 'rotate(360deg)' }} >
-                    <img src={asset2}/>
-                    </TweenOne>
-                    <TweenOne
-                    animation={{ x: '+=330px', y: '-=100px', duration: 2000 }}
-                    style={{ opacity: 1, height: 100, transform: 'translate(50px,30px)' }}
-                    >
-                    <div>089622372883</div>
-                    </TweenOne>
-                </div>
-                <div>
-                <TweenOne
-                    animation={{ x: '+=380px', y: '-=150px', duration: 2000 }}
-                    style={{ opacity: 1, height: 100, transform: 'translate(50px,30px)' }}
-                    >
-                    <div><img src={asset3}/><span>&emsp;nofadwiadelia47@gmail.com</span></div>
-                    </TweenOne>
-                </div>
-                <div>
-                    <TweenOne animation={{ x: '+=300px', y: '-=100px', rotate: 360, duration: 2000 }}
-                    Style={{  top: 0, left: 50, width: 100, height: 10, background: '#000',
-                    Transform: 'rotate(360deg)' }} >
-                    <img src={asset4}/>
-                    </TweenOne>
-                    <TweenOne
-                    animation={{ x: '+=380px', y: '-=200px', duration: 2000 }}
-                    style={{ opacity: 1, height: 100, transform: 'translate(50px,30px)' }}
-                    >
-                    <div>nofa_adelia</div>
-                </TweenOne>
-                </div>
-                <div>
-                <TweenOne
-                animation={[
-                    { rotateY: 360, duration: 2000 },
-                    { delay: -900, translateX: 400,translateY: -170, duration: 1000 },
-                ]}
-                style={{
-                    x: '+=400px', y: '+=0px', width: 100,
-                    transform: 'perspective(100px) rotateY(10deg)',
-                }}
-                >
-                <div><img src={asset5}/></div>
-                </TweenOne>
-                <TweenOne
-                    animation={{ x: '+=480px', y: '-=260px', duration: 2000 }}
-                    style={{ opacity: 1, height: 100, transform: 'translate(50px,30px)' }}
-                    >
-                    <div>noffa_adelia</div>
-                </TweenOne>
-                </div>
-            </div>
-            </Card>
-          
-            
+        <Card title="Hubungi Melalui" bordered={false}>
+            <Row gutter={16}>
+                <Col span={12}>
+                    <Card bordered={false}>
+                    <div style={{ background: '#ffff', paddingTop: '20px' }}>
+                        <div>
+                            <TweenOne
+                            animation={{ x: '+=5px', y: '-=50px', duration: 1000 }}
+                            style={{ opacity: 1, height: 100, transform: 'translate(50px,30px)' }}
+                            >
+                            <div>
+                            <Icon type="home" style={{fontSize: '35px'}}/>
+                            <span>&emsp;Guyangan, Tugu, Cawas, Klaten</span></div>
+                            </TweenOne>
+                        </div>
+                        <div>
+                            <TweenOne
+                            animation={{ x: '+=5px', y: '-=50px', duration: 1000 }}
+                            style={{ opacity: 1, height: 100, transform: 'translate(50px,30px)' }}
+                            >
+                            <div>
+                                <Icon type="phone" style={{fontSize: '35px'}}/>
+                            <span>&emsp;089622372883</span></div>
+                            </TweenOne>
+                        </div>
+                        <div>
+                            <TweenOne
+                            animation={{ x: '+=5px', y: '-=50px', duration: 1000 }}
+                            style={{ opacity: 1, height: 100, transform: 'translate(50px,30px)' }}
+                            >
+                            <div>
+                                <Icon type="twitter" style={{fontSize: '35px'}}/>
+                            <span>&emsp;@noffa_adelia</span></div>
+                            </TweenOne>
+                        </div>
+                        <div>
+                            <TweenOne
+                            animation={{ x: '+=5px', y: '-=50px', duration: 1000 }}
+                            style={{ opacity: 1, height: 100, transform: 'translate(50px,30px)' }}
+                            >
+                            <div>
+                                <Icon type="instagram" style={{fontSize: '35px'}}/>
+                            <span>&emsp;@nofa_adelia</span></div>
+                            </TweenOne>
+                        </div>
+                        <div>
+                            <TweenOne
+                            animation={{ x: '+=5px', y: '-=50px', duration: 1000 }}
+                            style={{ opacity: 1, height: 100, transform: 'translate(50px,30px)' }}
+                            >
+                            <div>
+                                <Icon type="facebook" style={{fontSize: '35px'}}/>
+                            <span>&emsp;Nofa Dwi Adelia</span></div>
+                            </TweenOne>
+                        </div>
+                    </div>
+                    </Card>
+                </Col>
+                <Col span={12}>
+                <Card style={{ width: 400 }}>
+                <Form  className="login-form">
+                    <Form.Item>
+                        <Input prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
+                        placeholder="Nama"/>
+                    </Form.Item>
+                    <Form.Item>
+                        <Input placeholder="Email"/>
+                    </Form.Item>
+                    <Form.Item>
+                    <TextArea rows={4} placeholder="Pesan"/>
+                    </Form.Item>
+                    <Form.Item>
+                    <Button type="primary" htmlType="submit" className="login-form-button">Kirim</Button>
+                    </Form.Item>
+                </Form>
+                </Card>
+                </Col>
+            </Row>        
+        </Card>
             
         )
     }
