@@ -12,7 +12,7 @@ class KoCard extends React.Component{
             <Row gutter={16}>
                 <Col span={12}>
                     <Card bordered={false}>
-                    <div style={{ background: '#ffff', paddingTop: '20px' }}>
+                    <div style={{ background: '#ffff', paddingTop: '10px' }}>
                         <div>
                             <TweenOne
                             animation={{ x: '+=5px', y: '-=50px', duration: 1000 }}

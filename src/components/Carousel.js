@@ -1,7 +1,6 @@
 import React from 'react';
 import { Carousel } from 'antd';
 import "../components/Carousel.css";
-// import bg from "../components/page/img/bg.png";
 import Texty from 'rc-texty';
 import 'rc-texty/assets/index.css';
 import Typist from 'react-typist-updated';
@@ -17,15 +16,7 @@ class MyCarousel extends React.Component{
             <div style={{  padding: '50px' }}><h1><Texty>WELCOME</Texty></h1>
             <Typist>Bermimpilah dalam hidup, jangan hidup dalam bermimpi</Typist></div>
             </div>
-                {/* <Typist>
-                    WELCOME <br/>
-                    <span className="typist">
-                  Making the Impossible...Possible...
-                </span>
-                </Typist> */}
             </div>
-
-                
             </Carousel>
         )
     }

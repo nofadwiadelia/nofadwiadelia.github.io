@@ -52,7 +52,7 @@ class MyCard extends React.Component{
                     
                     </Col>
                     </Animate>
-                    <Animate to="1" from="0" attributeName="opacity" duration='1000'>
+                    <Animate to="1" from="0" attributeName="opacity" duration='1500'>
                     <Col span={8}>
                     <Card
                         style={{ width: 270 }}
@@ -67,7 +67,7 @@ class MyCard extends React.Component{
                     </Card>
                     </Col>
                     </Animate>
-                    <Animate to="1" from="0" attributeName="opacity" duration='1500'>
+                    <Animate to="1" from="0" attributeName="opacity" duration='2500'>
                     <Col span={8}>
                     <Card
                         style={{ width: 270 }}

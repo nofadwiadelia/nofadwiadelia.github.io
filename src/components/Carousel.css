@@ -1,16 +1,12 @@
 /* For demo */
 .ant-carousel .slick-slide {
   text-align: center;
-  height: 690px;
+  height: 600px;
   line-height: 160px;
   background: url("../components/page/img/bg-min.png");
   background-size: cover;
   background-position: center;
   overflow: hidden;
-}
-
-.ant-carousel .slick-slide h3 {
-  color: #fff;
 }
 
 h1 {
