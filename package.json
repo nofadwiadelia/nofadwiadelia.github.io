@@ -8,7 +8,6 @@
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
     "rc-queue-anim": "^1.6.12",
-    "rc-scroll-anim": "^2.5.7",
     "rc-texty": "^0.2.0",
     "rc-tween-one": "^2.4.1",
     "react": "^16.8.6",
@@ -18,7 +17,6 @@
     "react-scripts": "3.0.0",
     "react-smooth": "^1.0.2",
     "react-transition-group": "^4.0.1",
-    "react-typist": "^2.0.5",
     "react-typist-updated": "^2.0.6"
   },
   "scripts": {
@@ -42,7 +40,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "react-image-webp": "^0.2.2"
-  }
+  "devDependencies": {}
 }

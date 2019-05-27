@@ -1,5 +1,5 @@
 /* For demo */
-.ant-carousel .slick-slide {
+.bg{
   text-align: center;
   height: 600px;
   line-height: 160px;
@@ -10,16 +10,13 @@
 }
 
 h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 5em;
-  color: #000;
-}
-
-Typist{
-  font-size: 2em;
   color: #000;
 }
 
 .Typist {
   font-size: 2em;
+  
 }
   
